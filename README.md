@@ -8,10 +8,11 @@
 - chongshengB源码 和 qqbxyw源码基本一至
 - 默认都开启CPU超频到 1100MHZ,如不想超频，根据提示关闭。
 - 默认最精简功能。
+- 管理地址：192.168.2.1；管理账号密码都是：admin；默认wifi密码：1234567890
 
 ## 感谢
 
-- 大神源码
+- 大神源码：
 - [hanwckf](https://github.com/hanwckf/rt-n56u)
 - [chongshengB](https://github.com/chongshengB/rt-n56u)
 - [MeIsReallyBa](https://github.com/MeIsReallyBa/padavan-4.4)
