@@ -36,6 +36,7 @@ jobs:
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
+    
     - name: Clone source code
       run: |
         git clone --depth=1 https://github.com/$BUILD_VERSION/rt-n56u.git /opt/rt-n56u
@@ -43,6 +44,7 @@ jobs:
         sh dl_toolchain.sh
         mkdir -p /opt/images/
         echo "DATE=$(date "+%Y-%m-%d")" >> $GITHUB_ENV
+    
     - name: Build Firmware
       run: |
         cd /opt/rt-n56u/trunk
