@@ -5,7 +5,7 @@
 - 可更改需要编译的源码，hanwckf 或者 chongshengB 或者 MeIsReallyBa三种源码
 - 可更改需要编译的型号，注意名称要与源码configs/templates/目录下的名字相同
 - 重新编译点击 Unstar 星星按钮后再点击 Star 星星按钮即可重新编译
-- chongshengB 和 qqbxyw基本一至
+- chongshengB源码 和 qqbxyw源码基本一至
 
 ## 感谢
 
